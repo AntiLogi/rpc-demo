@@ -5,11 +5,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.ayyovei</groupId>
-  <artifactId>rpc-core</artifactId>
+  <artifactId>example</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <modules>
+    <module>example-api</module>
+  </modules>
+  <packaging>pom</packaging>
 
-  <name>rpc-core Maven Webapp</name>
+  <name>example Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -26,17 +29,10 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-all</artifactId>
-      <version>4.1.42.Final</version>
-    </dependency>
-
   </dependencies>
 
   <build>
-    <finalName>rpc-core</finalName>
+    <finalName>example</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

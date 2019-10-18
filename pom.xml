@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>rpc-core</module>
+        <module>example</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
